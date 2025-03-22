@@ -17,7 +17,6 @@ function getWorkingHours(empCheck) {
             return 0;
     }
 }
-
 let empHrs = 0;
 let empCheck = Math. floor (Math. random () * 10) & 3;
 empHrs = getWorkingHours (empCheck) ;
